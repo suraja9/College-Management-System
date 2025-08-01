@@ -77,7 +77,7 @@ PORT=5000
 Start the backend server:
 
 ```bash
-node index.js
+node server.js
 ```
 
 ---
@@ -90,64 +90,12 @@ npm install
 npm start
 ```
 
-If the frontend uses environment variables:
-
-Create a `.env` in the `frontend` folder:
-
-```env
-REACT_APP_API_URL=http://localhost:5000
-```
-
----
-
-## 📂 Project Structure
-
-```
-College-Management-System/
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   └── index.js
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.js
-├── README.md
-```
-
----
-
-## 📸 Screenshots
-
-*Add screenshots here later for UI demonstration*
-
----
-
-## 🧪 API Endpoints (Sample)
-
-| Method | Route                          | Description               |
-|--------|--------------------------------|---------------------------|
-| POST   | `/api/auth/login`              | Login for users           |
-| GET    | `/api/students`                | Get all students          |
-| POST   | `/api/attendance/mark`         | Mark attendance           |
-| GET    | `/api/attendance/:studentId`   | Get attendance by student |
-| ...    |                                |                           |
-
 ---
 
 ## 🧑‍💻 Author
 
 - GitHub: [@suraja9](https://github.com/suraja9)
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
